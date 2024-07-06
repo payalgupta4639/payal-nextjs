@@ -7,8 +7,46 @@ export default function Home() {
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">   
         <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
           <Link href="/questions" />
-          Get started by editing&nbsp;
+          From this list, rank your 5 most favourite and 5 least favourite support tasks. Provide a brief explanation for each.
           <code className="font-mono font-bold">app/page.tsx</code>
+        </p>
+
+        <p>
+        5 most favourite tasks are:
+
+Create video tutorials to help teach users a specific feature or use case 
+Creating video tutorials with clear visual instructions can help enhance user experience and reduce the number of support tickets. I like creating content such as writing technical documentation or creating videos to share knowledge and help the users explain how a particular service or feature works. 
+
+Help train and onboard new support teammates
+Helping new hires and training them for long-term success is a critical task and a fulfilling one. It helps in sharing knowledge, fostering growth, and building a strong team. I have mentored a couple of new hires so far and it helps both the mentee and the mentor to grow personally as well as professionally.
+
+Work with the product team to develop a new feature based on feedback from customers
+This is a rewarding task. Working directly with the product team to build new features based on user feedback allows you to have an influence on product development and ensure that customer needs are met. 
+
+Scheduling time-off coverage and collaborating as part of a growing cohesive support team
+It is about being a team player and being available when the team needs it which helps in fostering team bonding and trust between the team members that is crucial for the success of the team.
+
+Work with people to figure out if Vercel is suitable for their use case
+Helping our customers to understand if Vercel is suitable for their use case is engaging and impactful. It helps to gain more knowledge about the product through different use-cases, and get a chance to build a trust relationship with the customer which helps in the long-term.
+
+—--
+5 least favourite support tasks
+Respond to 25+ support cases via email everyday
+While I enjoy working hard and handling a high volume of cases, as a senior support engineer, I believe my focus should shift towards high-priority tasks like managing urgent or escalated tickets, mentoring, and collaborating with the product team. This would better utilize my skills and benefit the team more effectively. High-volume repetitive tasks may not significantly enhance my skills or knowledge.
+
+Help resolve billing issues for customers
+I believe billing issues can be complex and time-consuming to troubleshoot unless there is a bug in the product billing system. Generally, such issues should be directly handled by the respective team who manages the billing in order to have an effective communication with the customer and avoid any communication gap or delays.
+
+Run ticket review sessions to make sure tone is consistent
+I understand ensuring a consistent tone is an important part while working with the customer and it should be the support engineer’s responsibility to ensure that the tone is correct. If a team member has requested for a ticket review session, then I would be happy to help.
+
+Engage multiple users at once in a public discussion, to answer their questions and troubleshoot problems
+Managing multiple users at once in a public discussion can be stressful and overwhelming at times.
+
+Find and recruit teammates for the support team
+
+Finding and recruiting teammates for the support team can be a time-consuming and demanding process. However, if required, I'd be happy to do it.
+
         </p>
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:size-auto lg:bg-none">
           <a
