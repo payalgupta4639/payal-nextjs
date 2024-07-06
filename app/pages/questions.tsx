@@ -10,4 +10,4 @@ const Questions = () => {
   );
 };
 
-export default About;
+export default Questions;
