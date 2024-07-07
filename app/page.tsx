@@ -195,6 +195,9 @@ export default function Home() {
             <ul>
               <li>1. Open your Nginx configuration file for editing.</li>
               <li>2. Add the following 'location' block inside your server block:</li>
+              <code>
+                
+              </code>
               <li>3. Save the configuration file and reload Nginx for changes to take effect.</li>
             </ul>
             <p>
@@ -225,7 +228,7 @@ export default function Home() {
               You can achieve this by adding the below HTML meta tags to your project’s HTML pages which will help prevent it from indexing:<br/>
             </p>
             <p>
-              <meta name="robots" content="noindex, nofollow"/>
+              &lt;meta name=&quot;robots&quot; content=&quot;noindex, nofollow&quot; /&gt;
             </p><br/>
             <p>
               Please let me know if you face any issues. Would be happy to assist.
