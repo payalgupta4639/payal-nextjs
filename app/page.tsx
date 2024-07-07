@@ -4,15 +4,15 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm">
-        <h1 id="familiarization-exercise">Familiarization Exercise</h1>
+        <h1 id="familiarization-exercise">Familiarization Exercise</h1><br/><br/>
         
         <ol>
           <li>
-            From this list, rank your 5 most favourite and 5 least favourite support tasks. Provide a brief explanation for each.
+            1. From this list, rank your 5 most favourite and 5 least favourite support tasks. Provide a brief explanation for each.<br/><br/>
           </li>
         </ol>
         
-        <p><strong>5 most favourite tasks are:</strong></p>
+        <p><strong><b>5 most favourite tasks are:</b></strong></p>
         <ul>
           <li>
             <p>
