@@ -177,33 +177,28 @@ export default function Home() {
           </li>
         </ol>
 
-        <ol start="7">
+
+
+        <ol start="8">
           <li>
-            A customer writes in to the Helpdesk asking "How do I do a redirect from the /blog path to https://example.com?" Please write a reply to the customer. Feel free to add any information about your decision making process after the reply.
+            A customer is creating a site and would like their project not to be indexed by search engines. Please write a reply to the customer. Feel free to add any information about your decision making process after the reply.
             <p>
               Hi [Customer Name],
             </p>
             <p>
-              I understand that you would like to set up a redirect from the `/blog` path to `https://example.com`. You can implement this using various methods depending on your server environment.
+              Greetings from Vercel!
             </p>
             <p>
-              Here’s a general approach using Nginx server configurations:
+              I understand you are creating a website and would like us to help you with ensuring that your project is not being indexed by the search engines. Please correct me if I misunderstood your concern.
             </p>
             <p>
-              If you're using Nginx as your web server, you can add a redirect rule in your Nginx configuration file (`nginx.conf` or a specific site configuration file):
+              You can achieve this by adding the below HTML meta tags to your project’s HTML pages which will help prevent it from indexing:
             </p>
-            <ol>
-              <li>Open your Nginx configuration file for editing.</li>
-              <li>Add the following `location` block inside your server block:</li>
-              <pre>
-                location /blog {
-                  return 301 https://example.com;
-                }
-              </pre>
-              <li>Save the configuration file and reload Nginx for changes to take effect.</li>
-            </ol>
+            <pre>
+              <meta name="robots" content="noindex, nofollow"/>
+            </pre>
             <p>
-              Hope that helps. Please feel free to reach out if you need any further assistance.
+              Please let me know if you face any issues. Would be happy to assist.
             </p>
             <p>
               Thanks,
@@ -211,8 +206,6 @@ export default function Home() {
             </p>
           </li>
         </ol>
-
-
 
         <ol start="9">
           <li>
