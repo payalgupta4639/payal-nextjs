@@ -12,7 +12,7 @@ export default function Home() {
           </li>
         </ol>
         
-        <p><strong><b>5 most favourite tasks are:</b></strong></p>
+        <p><strong><b>5 most favourite tasks are:</b></strong><br/><br/></p>
         <ul>
           <li>
             <p>
