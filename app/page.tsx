@@ -118,7 +118,7 @@ export default function Home() {
             </p>
           </li>
         </ul>
-        <ol start="2">
+        <ol start=2>
           <li>
             <p>
               What do you want to learn or do more of at work? I want to grow
