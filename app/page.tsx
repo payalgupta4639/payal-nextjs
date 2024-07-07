@@ -80,7 +80,7 @@ export default function Home() {
           </li>
         </ul>
 
-        <ol start="2">
+        <ol start={2}>
           <li>
             <p>
               What do you want to learn or do more of at work? 
@@ -116,7 +116,7 @@ export default function Home() {
           </li>
         </ol>
 
-        <ol start="4">
+        <ol start={4}>
           <li>
             When would you choose to use Edge Functions, Serverless Functions, or Edge Middleware with Vercel?
             <p>
@@ -125,7 +125,7 @@ export default function Home() {
           </li>
         </ol>
 
-        <ol start="5">
+        <ol start={5}>
           <li>
             Imagine a customer writes in requesting help with a build issue on a framework or technology that you've not seen before. How would you begin troubleshooting this and what questions would you ask the customer to understand the situation better?
             <p>
@@ -143,7 +143,7 @@ export default function Home() {
           </li>
         </ol>
 
-        <ol start="6">
+        <ol start={6}>
           <li>
             The customer from question 5 replies to your response with the below:
             <p>
@@ -179,7 +179,7 @@ export default function Home() {
 
 
 
-        <ol start="8">
+        <ol start={8}>
           <li>
             A customer is creating a site and would like their project not to be indexed by search engines. Please write a reply to the customer. Feel free to add any information about your decision making process after the reply.
             <p>
@@ -207,7 +207,7 @@ export default function Home() {
           </li>
         </ol>
 
-        <ol start="9">
+        <ol start={9}>
           <li>
             What do you think is one of the most common problems which customers ask Vercel for help with? How would you help customers to overcome common problems, short-term and long-term?
             <p>
@@ -224,7 +224,7 @@ export default function Home() {
           </li>
         </ol>
 
-        <ol start="10">
+        <ol start={10}>
           <li>
             How could we improve or alter this familiarisation exercise?
             <p>Sorry, time is up. Couldn't think of anything better. Thanks.</p>
