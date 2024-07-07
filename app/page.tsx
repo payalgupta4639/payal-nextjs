@@ -195,9 +195,11 @@ export default function Home() {
             <ul>
               <li>1. Open your Nginx configuration file for editing.</li>
               <li>2. Add the following 'location' block inside your server block:</li>
-              <code>
-                
-              </code>
+              <pre>
+                { ... location /blog 
+                     { return 301 https://example.com; }
+                ... }
+              </pre>
               <li>3. Save the configuration file and reload Nginx for changes to take effect.</li>
             </ul>
             <p>
