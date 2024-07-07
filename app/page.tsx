@@ -1,7 +1,5 @@
 export default function Home() {
-  return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">   
+  return (  
         <p>
           Familiarization Exercise
           <br/><br/>
@@ -172,7 +170,5 @@ export default function Home() {
           <br/>
           Sorry, time is up. Couldn't think of anything better. Thanks.
         </p>
-      </div>
-    </main>
   );
 }
