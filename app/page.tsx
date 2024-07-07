@@ -133,7 +133,7 @@ export default function Home() {
           }
           </code>
           <br/>
-          3. Save the configuration file and reload Nginx for changes to take effect .
+          3. Save the configuration file and reload Nginx for changes to take effect.
           <br/><br/>
           Hope that helps. Please feel free to reach out if you need any further assistance.
           <br/><br/>
