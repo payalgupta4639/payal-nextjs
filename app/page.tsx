@@ -5,7 +5,6 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <Fragment>
           <h1 id="familiarization-exercise">Familiarization Exercise</h1>
           <ol>
             <li>
@@ -392,7 +391,6 @@ export default function Home() {
               Sorry, time is up. Couldn't think of anything better. Thanks.
             </code>
           </pre>
-        </Fragment>
       </div>
     </main>
   );
