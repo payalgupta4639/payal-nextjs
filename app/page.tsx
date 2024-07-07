@@ -184,18 +184,18 @@ export default function Home() {
               Hi [Customer Name], 
             </p>
             <p>
-              I understand that you would like to set up a redirect from the `/blog` path to `https://example.com`. You can implement this using various methods depending on your server environment. 
+              I understand that you would like to set up a redirect from the '/blog' path to 'https://example.com'. You can implement this using various methods depending on your server environment. 
             </p>
             <p>
               Here’s a general approach using Nginx server configurations: <br/>
-              If you're using Nginx as your web server, you can add a redirect rule in your Nginx configuration file (`nginx.conf` or a specific site configuration file):<br/>
+              If you're using Nginx as your web server, you can add a redirect rule in your Nginx configuration file ('nginx.conf' or a specific site configuration file):<br/>
               1. Open your Nginx configuration file for editing. <br/>
               2. Add the following `location` block inside your server block: <br/>
-              <code>
+              <p>
                 { ... location /blog 
                       { return 301 https://example.com; }
                 ... }
-              </code>
+              </p>
               3. Save the configuration file and reload Nginx for changes to take effect.<br/>
               Hope that helps. Please feel free to reach out if you need any further assistance.<br/>
               Thanks,<br/>
@@ -219,11 +219,11 @@ export default function Home() {
               I understand you are creating a website and would like us to help you with ensuring that your project is not being indexed by the search engines. Please correct me if I misunderstood your concern.
             </p>
             <p>
-              You can achieve this by adding the below HTML meta tags to your project’s HTML pages which will help prevent it from indexing:
+              You can achieve this by adding the below HTML meta tags to your project’s HTML pages which will help prevent it from indexing:<br/>
             </p>
-            <code>
+            <p>
               <meta name="robots" content="noindex, nofollow"/>
-            </code><br/>
+            </p><br/>
             <p>
               Please let me know if you face any issues. Would be happy to assist.
             </p>
