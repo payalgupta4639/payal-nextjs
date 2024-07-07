@@ -1,10 +1,9 @@
 import Image from "next/image";
-import Link from "next/link";
 
 export default function Home() {
   return (
-  <main className="flex min-h-screen flex-col items-center justify-between p-24">
-    <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
+    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
         <h1 id="familiarization-exercise">Familiarization Exercise</h1>
         <ol>
           <li>
@@ -24,7 +23,7 @@ export default function Home() {
               support tickets. I like creating content such as writing
               technical documentation or creating videos to share knowledge
               and help the users explain how a particular service or feature
-              works.{" "}
+              works.
             </p>
           </li>
           <li>
@@ -43,7 +42,7 @@ export default function Home() {
               feedback from customers This is a rewarding task. Working
               directly with the product team to build new features based on
               user feedback allows you to have an influence on product
-              development and ensure that customer needs are met.{" "}
+              development and ensure that customer needs are met.
             </p>
           </li>
           <li>
@@ -67,7 +66,7 @@ export default function Home() {
           </li>
         </ul>
         <p>
-          <strong>5 least favourite support tasks</strong>
+          <strong>5 least favourite support tasks:</strong>
         </p>
         <ul>
           <li>
@@ -115,11 +114,11 @@ export default function Home() {
               Find and recruit teammates for the support team Finding and
               recruiting teammates for the support team can be a
               time-consuming and demanding process. However, if required,
-              I&#39;d be happy to do it.
+              I'd be happy to do it.
             </p>
           </li>
         </ul>
-        <ol start=2>
+        <ol start="2">
           <li>
             <p>
               What do you want to learn or do more of at work? I want to grow
@@ -132,8 +131,8 @@ export default function Home() {
           <li>
             <p>
               Describe how you solved a challenge or technical issue that you
-              faced in a previous role &#40;preferably in a previous support
-              role&#41;. How did you determine that your solution was
+              faced in a previous role (preferably in a previous support
+              role). How did you determine that your solution was
               successful?
             </p>
           </li>
@@ -142,7 +141,7 @@ export default function Home() {
           <strong>Issue:</strong> Customer was able to setup Dremio Cloud and
           create the infrastructure in AWS however, they were unable to run
           any queries on AWS glue source in Dremio Cloud. No error message was
-          showing up on the Dremio Cloud UI
+          showing up on the Dremio Cloud UI.
         </p>
         <p>
           <strong>Troubleshooting Steps:</strong>
@@ -153,16 +152,16 @@ export default function Home() {
             Found sts connection timeout error messages which indicated
             network connection issue between the dremio cloud control plane
             and the dataplane where customer deployed the compute resources to
-            run queries
+            run queries.
           </li>
           <li>
             Possible root causes of this issue are misconfigured network
-            resources such security group, NAT gateway &#40;if the ec2
-            instance is in private subnet&#41;, etc.
+            resources such security group, NAT gateway (if the ec2
+            instance is in private subnet), etc.
           </li>
           <li>
             Scheduled a call with the customer to check their AWS
-            configuration
+            configuration.
           </li>
           <li>
             Customer was using the public subnet. Checked all the network
@@ -173,21 +172,21 @@ export default function Home() {
           <li>
             Tried to run queries on other sample sources in dremio cloud such
             as S3 to narrow down the issue and confirm if it is specific to
-            Glue source or all types of sources
+            Glue source or all types of sources.
           </li>
           <li>
             Then, checked the ec2 instance details and found that the ec2
             instance which were spinning up by dremio cloud did not have the
             public IP associated with them due to which dremio cloud control
             plane was not able to establish communication with them and the
-            connection was getting timed out
+            connection was getting timed out.
           </li>
         </ul>
         <p>
-          <strong>Root Cause:</strong>
-          Issue occurred because ec2 instances did not have the public IPs
-          associated with them due to which the network connection between
-          data plane and dremio cloud control plane was getting timed out.
+          <strong>Root Cause:</strong> Issue occurred because ec2 instances
+          did not have the public IPs associated with them due to which the
+          network connection between data plane and dremio cloud control plane
+          was getting timed out.
         </p>
         <p>
           <strong>Resolution:</strong>
@@ -195,19 +194,19 @@ export default function Home() {
         <ul>
           <li>
             Either attach an elastic IP to the already created ec2 instances
-            to establish the connection
+            to establish the connection.
           </li>
           <li>
             Or edit the subnet settings to enable auto-assign public IP option
             and launch a new ec2 instance which should have a public IP
-            already associated with it
+            already associated with it.
           </li>
         </ul>
         <p>
           After editing the subnet settings and enabling auto-assign public IP
           for the ec2 instance, the query worked!
         </p>
-        <ol start=4>
+        <ol start="4">
           <li>
             When would you choose to use Edge Functions, Serverless Functions,
             or Edge Middleware with Vercel?
@@ -218,180 +217,54 @@ export default function Home() {
           ultra-low latency as edge function run closer to the user, reducing
           response times. I would choose Serverless Functions to run the
           backend logic where ultra-low latency is not required for example
-          interacting with the databases I would choose Edge Middleware for
+          interacting with the databases. I would choose Edge Middleware for
           request/response manipulation to intercept and modify requests and
-          responses. For example, redirecting URLs
+          responses. For example, redirecting URLs.
         </p>
-        <ol start=5>
+        <ol start="5">
           <li>
             Imagine a customer writes in requesting help with a build issue on
-            a framework or technology that you&#39;ve not seen before. How
+            a framework or technology that you've not seen before. How
             would you begin troubleshooting this and what questions would you
             ask the customer to understand the situation better?
           </li>
         </ol>
         <p>
           I would first acknowledge their concern and assure them that I’m
-          here to help. Then, I would ask the below questions to start with
-          and understand the issue better:
+          here to help. Then, I would ask the below questions to better
+          understand the issue:
         </p>
         <ul>
-          <li>What framework or technology are they using?</li>
-          <li>What is the version of that framework?</li>
-          <li>Are there any tools or dependencies that they are using?</li>
+          <li>What framework or technology are you using?</li>
+          <li>What error message or issue are you experiencing?</li>
+          <li>When did you first notice the problem?</li>
           <li>
-            Request to elaborate a bit more on the build issue they are facing
-            such as when exactly it happened, what is the error message coming
-            in, is it consistent or intermittent?
+            Can you provide any specific details or steps to reproduce the
+            issue?
           </li>
           <li>
-            Share the logs, if any, from the time period when error occurred
+            Have you recently made any changes or updates to your project?
           </li>
           <li>
-            Share the steps that they are taking to initiate the build process
+            Are there any logs or screenshots you can share that might help us
+            diagnose the problem?
           </li>
           <li>
-            Are they trying to build it locally or on any other platform? Is
-            this issue specific to that particular environment?
+            Which versions of the framework, libraries, and tools are you
+            using?
+          </li>
+          <li>
+            Have you tried any troubleshooting steps so far? If so, what were
+            the results?
           </li>
         </ul>
-        <ol start=6>
-          <li>
-            The customer from question 5 replies to your response with the
-            below: “I’m so frustrated. I’ve been trying to make this work for
-            hours and I just can’t figure it out. It must be a platform issue
-            so just fix it for me instead of asking me questions.” Please
-            write a follow-up reply to the customer.
-            <pre className="">
-              <code className="">
-                Hi [Customer Name],
-                <br />
-              </code>
-            </pre>
-          </li>
-        </ol>
         <p>
-          I&#39;m really sorry to hear about your frustration. I completely
-          understand how tough it can be when things aren&#39;t working as
-          expected, especially after spending so much time on it. I want to
-          help you as efficiently as possible.
+          Based on their responses, I would research any unfamiliar
+          frameworks or technologies, consulting documentation and online
+          resources to gather information about the issue. Then, I would
+          provide step-by-step guidance or solutions based on my findings.
         </p>
-        <p>
-          If you can provide me with just a few key details, I&#39;ll be able
-          to pinpoint the issue and get it fixed for you:
-        </p>
-        <ol>
-          <li>The version of framework or technology you are using.</li>
-          <li>The exact error messages or logs you are seeing </li>
-          <li>
-            The command or steps you are using to start the build process.
-          </li>
-        </ol>
-        <p>
-          These details will enable me to understand the problem better and
-          provide a precise solution quickly.
-        </p>
-        <p>
-          Thank you for your patience, and I&#39;m here to support you through
-          this. We&#39;ll get it sorted out together.
-        </p>
-        <p>Best regards, Payal</p>
-
-        <pre className="">
-          <code className="">
-            <br />
-            7. A customer writes in to the Helpdesk asking "How do I do a
-            redirect from the /blog path to https://example.com?" Please write
-            a reply to the customer. Feel free to add any information about
-            your decision making process after the reply.
-          </code>
-        </pre>
-        <p>Hi [Customer Name], </p>
-        <p>
-          I understand that you would like to set up a redirect from the{" "}
-          <code>/blog</code> path to <code>https://example.com</code>. You can
-          implement this using various methods depending on your server
-          environment.{" "}
-        </p>
-        <p>Here’s a general approach using Nginx server configurations: </p>
-        <p>
-          If you&#39;re using Nginx as your web server, you can add a redirect
-          rule in your Nginx configuration file &#40;<code>nginx.conf</code>{" "}
-          or a specific site configuration file&#41;:{" "}
-        </p>
-        <ol>
-          <li>Open your Nginx configuration file for editing. </li>
-          <li>
-            Add the following <code>location</code> block inside your server
-            block: &#123; ... location /blog &#123; return 301{" "}
-            <a href="https://example.com">https://example.com</a>; &#125; ...
-            &#125;
-          </li>
-          <li>
-            Save the configuration file and reload Nginx for changes to take
-            effect .
-          </li>
-        </ol>
-        <p>
-          Hope that helps. Please feel free to reach out if you need any
-          further assistance.
-        </p>
-        <p>Thanks, Payal</p>
-
-        <pre className="">
-          <code className="">
-            <br />
-            8. A customer is creating a site and would like their project not
-            to be indexed by search engines. Please write a reply to the
-            customer. Feel free to add any information about your decision
-            making process after the reply.
-          </code>
-        </pre>
-        <p>Hi [customer-name],</p>
-        <p>Greetings from Vercel!</p>
-        <p>
-          I understand you are creating a website and would like us to help
-          you with ensuring that your project is not being indexed by the
-          search engines. Please correct me if I misunderstood your concern.
-        </p>
-        <p>
-          You can achieve this by adding the below HTML meta tags to your
-          project’s HTML pages which will help prevent it from indexing
-          <meta name="robots" content="noindex, nofollow" />
-        </p>
-        <p>
-          Please let me know if you face any issues. Would be happy to assist.
-        </p>
-        <p>Thanks, Payal</p>
-
-        <pre className="">
-          <code className="">
-            <br />
-            9. What do you think is one of the most common problems which
-            customers ask Vercel for help with? How would you help customers
-            to overcome common problems, short-term and long-term?
-            <br />
-            <br />
-            Some common issues which customers might be asking Vercel to help
-            with are:
-            <br />- Build failures
-            <br />- Dependencies issues
-            <br />- Signup issues <br />
-            <br />I would create macros or templates for such common problems
-            to share with the customers and help them resolve the issues at
-            the earliest as a short term solution. <br />
-            For long-term, I would suggest creating detailed documentation or
-            short videos on how to resolve these common problems in order to
-            reduce the ticket volume and assist our customers best.
-            <br />
-            <br />
-            10. How could we improve or alter this familiarisation exercise?
-            <br />
-            <br />
-            Sorry, time is up. Couldn't think of anything better. Thanks.
-          </code>
-        </pre>
-    </div>
-  </main>
+      </div>
+    </main>
   );
 }
