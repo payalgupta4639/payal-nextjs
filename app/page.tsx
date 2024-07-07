@@ -57,7 +57,7 @@ export default function Home() {
           <li>
             <p>
               <strong>- Help resolve billing issues for customers</strong><br/><br/>
-              I believe billing issues can be complex and time-consuming to troubleshoot unless there is a bug in the product billing system. Generally, such issues should be directly handled by the respective team who manages the billing in order to have an effective communication with the customer and avoid any communication gap or delays.
+              I believe billing issues can be complex and time-consuming to troubleshoot unless there is a bug in the product billing system. Generally, such issues should be directly handled by the respective team who manages the billing in order to have an effective communication with the customer and avoid any communication gap or delays.<br/><br/>
             </p>
           </li>
           <li>
@@ -112,7 +112,7 @@ export default function Home() {
               <li>- Either attach an elastic IP to the already created ec2 instances to establish the connection</li><br/>
               <li>- Or edit the subnet settings to enable auto-assign public IP option and launch a new ec2 instance which should have a public IP already associated with it</li><br/><br/>
             </ul>
-            <p>After editing the subnet settings and enabling auto-assign public IP for the ec2 instance, the query worked!</p>
+            <p>After editing the subnet settings and enabling auto-assign public IP for the ec2 instance, the query worked!</p><br/><br/>
           </li>
         </ol>
 
@@ -138,7 +138,7 @@ export default function Home() {
               <li>- Request to elaborate a bit more on the build issue they are facing such as when exactly it happened, what is the error message coming in, is it consistent or intermittent?</li>
               <li>- Share the logs, if any, from the time period when error occurred</li>
               <li>- Share the steps that they are taking to initiate the build process</li>
-              <li>- Are they trying to build it locally or on any other platform? Is this issue specific to that particular environment?</li>
+              <li>- Are they trying to build it locally or on any other platform? Is this issue specific to that particular environment?</li><br/><br/>
             </ul>
           </li>
         </ol>
@@ -157,12 +157,12 @@ export default function Home() {
               I'm really sorry to hear about your frustration. I completely understand how tough it can be when things aren't working as expected, especially after spending so much time on it. I want to help you as efficiently as possible.
             </p>
             <p>
-              If you can provide me with just a few key details, I'll be able to pinpoint the issue and get it fixed for you:
+              If you can provide me with just a few key details, I'll be able to pinpoint the issue and get it fixed for you:<br/>
             </p>
             <ul>
-              <li>The version of framework or technology you are using.</li>
-              <li>The exact error messages or logs you are seeing</li>
-              <li>The command or steps you are using to start the build process.</li>
+              <li>- The version of framework or technology you are using.</li>
+              <li>- The exact error messages or logs you are seeing</li>
+              <li>- The command or steps you are using to start the build process.</li><br/>
             </ul>
             <p>
               These details will enable me to understand the problem better and provide a precise solution quickly.
@@ -172,6 +172,33 @@ export default function Home() {
             </p>
             <p>
               Best regards,<br/>
+              Payal<br/><br/>
+            </p>
+          </li>
+        </ol>
+
+        <ol start={7}>
+          <li>
+            7. A customer writes in to the Helpdesk asking "How do I do a redirect from the /blog path to https://example.com?" Please write a reply to the customer. Feel free to add any information about your decision making process after the reply.<br/><br/>
+            <p>
+              Hi [Customer Name], 
+            </p>
+            <p>
+              I understand that you would like to set up a redirect from the `/blog` path to `https://example.com`. You can implement this using various methods depending on your server environment. 
+            </p>
+            <p>
+              Here’s a general approach using Nginx server configurations: <br/>
+              If you're using Nginx as your web server, you can add a redirect rule in your Nginx configuration file (`nginx.conf` or a specific site configuration file):<br/>
+              1. Open your Nginx configuration file for editing. <br/>
+              2. Add the following `location` block inside your server block: <br/>
+              <code>
+                { ... location /blog 
+                      { return 301 https://example.com; }
+                ... }
+              </code>
+              3. Save the configuration file and reload Nginx for changes to take effect.<br/>
+              Hope that helps. Please feel free to reach out if you need any further assistance.<br/>
+              Thanks,<br/>
               Payal<br/><br/>
             </p>
           </li>
@@ -194,9 +221,9 @@ export default function Home() {
             <p>
               You can achieve this by adding the below HTML meta tags to your project’s HTML pages which will help prevent it from indexing:
             </p>
-            <pre>
+            <code>
               <meta name="robots" content="noindex, nofollow"/>
-            </pre>
+            </code><br/>
             <p>
               Please let me know if you face any issues. Would be happy to assist.
             </p>
@@ -216,7 +243,7 @@ export default function Home() {
             <ul>
               <li>- Build failures</li>
               <li>- Dependencies issues</li>
-              <li>- Signup issues</li><br/><br/>
+              <li>- Signup issues</li><br/>
             </ul>
             <p>
               I would create macros or templates for such common problems to share with the customers and help them resolve the issues at the earliest as a short term solution. For long-term, I would suggest creating detailed documentation or short videos on how to resolve these common problems in order to reduce the ticket volume and assist our customers best.<br/><br/>
