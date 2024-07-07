@@ -119,7 +119,7 @@ export default function Home() {
             </p>
           </li>
         </ul>
-        <ol start="2">
+        <ol start=2>
           <li>
             <p>
               What do you want to learn or do more of at work? I want to grow
@@ -207,7 +207,7 @@ export default function Home() {
           After editing the subnet settings and enabling auto-assign public IP
           for the ec2 instance, the query worked!
         </p>
-        <ol start="4">
+        <ol start=4>
           <li>
             When would you choose to use Edge Functions, Serverless Functions,
             or Edge Middleware with Vercel?
@@ -222,7 +222,7 @@ export default function Home() {
           request/response manipulation to intercept and modify requests and
           responses. For example, redirecting URLs
         </p>
-        <ol start="5">
+        <ol start=5>
           <li>
             Imagine a customer writes in requesting help with a build issue on
             a framework or technology that you&#39;ve not seen before. How
@@ -255,7 +255,7 @@ export default function Home() {
             this issue specific to that particular environment?
           </li>
         </ul>
-        <ol start="6">
+        <ol start=6>
           <li>
             The customer from question 5 replies to your response with the
             below: “I’m so frustrated. I’ve been trying to make this work for
