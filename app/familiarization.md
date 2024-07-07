@@ -61,7 +61,13 @@ Issue occurred because ec2 instances did not have the public IPs associated with
 
 After editing the subnet settings and enabling auto-assign public IP for the ec2 instance, the query worked!
 
-4. Imagine a customer writes in requesting help with a build issue on a framework or technology that you've not seen before. How would you begin troubleshooting this and what questions would you ask the customer to understand the situation better?
+4. When would you choose to use Edge Functions, Serverless Functions, or Edge Middleware with Vercel?
+
+I would choose Edge functions to serve requests by the users with ultra-low latency as edge function run closer to the user, reducing response times. 
+I would choose Serverless Functions to run the backend logic where ultra-low latency is not required for example interacting with the databases
+I would choose Edge Middleware for request/response manipulation to intercept and modify requests and responses. For example, redirecting URLs
+
+5. Imagine a customer writes in requesting help with a build issue on a framework or technology that you've not seen before. How would you begin troubleshooting this and what questions would you ask the customer to understand the situation better?
 
 I would first acknowledge their concern and assure them that I’m here to help. Then, I would ask the below questions to start with and understand the issue better:
 
@@ -74,7 +80,7 @@ I would first acknowledge their concern and assure them that I’m here to help.
 - Are they trying to build it locally or on any other platform? Is this issue specific to that particular environment?
 
 
-5. The customer from question 5 replies to your response with the below:
+6. The customer from question 5 replies to your response with the below:
 “I’m so frustrated. I’ve been trying to make this work for hours and I just can’t figure it out. It must be a platform issue so just fix it for me instead of asking me questions.”
 Please write a follow-up reply to the customer.
 ```
@@ -97,7 +103,7 @@ Best regards,
 Payal
 ```
 
-6. A customer writes in to the Helpdesk asking "How do I do a redirect from the /blog path to https://example.com?" Please write a reply to the customer. Feel free to add any information about your decision making process after the reply.
+7. A customer writes in to the Helpdesk asking "How do I do a redirect from the /blog path to https://example.com?" Please write a reply to the customer. Feel free to add any information about your decision making process after the reply.
 ```
 Hi [Customer Name], 
 
@@ -120,7 +126,7 @@ Thanks,
 Payal
 ```
 
-7. A customer is creating a site and would like their project not to be indexed by search engines. Please write a reply to the customer. Feel free to add any information about your decision making process after the reply.
+8. A customer is creating a site and would like their project not to be indexed by search engines. Please write a reply to the customer. Feel free to add any information about your decision making process after the reply.
 ```
 Hi [customer-name],
 
@@ -137,7 +143,7 @@ Thanks,
 Payal
 ```
 
-8. What do you think is one of the most common problems which customers ask Vercel for help with? How would you help customers to overcome common problems, short-term and long-term?
+9. What do you think is one of the most common problems which customers ask Vercel for help with? How would you help customers to overcome common problems, short-term and long-term?
 
 Some common issues which customers might be asking Vercel to help with are:
 - Build failures
@@ -146,3 +152,7 @@ Some common issues which customers might be asking Vercel to help with are:
 
 I would create macros or templates for such common problems to share with the customers and help them resolve the issues at the earliest as a short term solution. 
 For long-term, I would suggest creating detailed documentation or short videos on how to resolve these common problems in order to reduce the ticket volume and assist our customers best.
+
+10. How could we improve or alter this familiarisation exercise?
+
+Sorry, time is up. Couldn't think of anything better. Thanks.
