@@ -16,7 +16,7 @@ export default function Home() {
         <ul>
           <li>
             <p>
-              <strong>Create video tutorials to help teach users a specific feature or use case</strong> 
+              <strong>Create video tutorials to help teach users a specific feature or use case. <br/></strong> 
               Creating video tutorials with clear visual instructions can help enhance user experience and reduce the number of support tickets. I like creating content such as writing technical documentation or creating videos to share knowledge and help the users explain how a particular service or feature works.
             </p>
           </li>
