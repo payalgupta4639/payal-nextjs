@@ -187,17 +187,23 @@ export default function Home() {
               I understand that you would like to set up a redirect from the '/blog' path to 'https://example.com'. You can implement this using various methods depending on your server environment. 
             </p>
             <p>
-              Here’s a general approach using Nginx server configurations: <br/>
-              If you're using Nginx as your web server, you can add a redirect rule in your Nginx configuration file ('nginx.conf' or a specific site configuration file):<br/>
-              1. Open your Nginx configuration file for editing. <br/>
-              2. Add the following 'location' block inside your server block: <br/>
-              <p>
-                { ... location /blog 
-                      { return 301 https://example.com; }
-                ... }
-              </p>
-              3. Save the configuration file and reload Nginx for changes to take effect.<br/>
-              Hope that helps. Please feel free to reach out if you need any further assistance.<br/>
+              Here’s a general approach using Nginx server configurations:
+            </p>
+            <p>
+              If you're using Nginx as your web server, you can add a redirect rule in your Nginx configuration file ('nginx.conf' or a specific site configuration file):
+            </p>
+            <ul>
+              <li>1. Open your Nginx configuration file for editing.</li>
+              <li>2. Add the following 'location' block inside your server block:</li>
+              <li>{ ... location /blog</li>
+              <li>{ return 301 https://example.com; }<li/>
+              <li>... }</li>li>
+              <li>3. Save the configuration file and reload Nginx for changes to take effect.</li>
+            </ul>
+            <p>
+              Hope that helps. Please feel free to reach out if you need any further assistance.
+            </p>
+            <p>
               Thanks,<br/>
               Payal<br/><br/>
             </p>
