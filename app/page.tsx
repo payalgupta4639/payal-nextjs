@@ -177,33 +177,6 @@ export default function Home() {
           </li>
         </ol>
 
-        <ol start={7}>
-          <li>
-            7. A customer writes in to the Helpdesk asking "How do I do a redirect from the /blog path to https://example.com?" Please write a reply to the customer. Feel free to add any information about your decision making process after the reply.<br/><br/>
-            <p>
-              Hi [Customer Name], 
-            </p>
-            <p>
-              I understand that you would like to set up a redirect from the '/blog' path to 'https://example.com'. You can implement this using various methods depending on your server environment. 
-            </p>
-            <p>
-              Here’s a general approach using Nginx server configurations: <br/>
-              If you're using Nginx as your web server, you can add a redirect rule in your Nginx configuration file ('nginx.conf' or a specific site configuration file):<br/>
-              1. Open your Nginx configuration file for editing. <br/>
-              2. Add the following `location` block inside your server block: <br/>
-              <p>
-                { ... location /blog 
-                      { return 301 https://example.com; }
-                ... }
-              </p>
-              3. Save the configuration file and reload Nginx for changes to take effect.<br/>
-              Hope that helps. Please feel free to reach out if you need any further assistance.<br/>
-              Thanks,<br/>
-              Payal<br/><br/>
-            </p>
-          </li>
-        </ol>
-
 
 
         <ol start={8}>
