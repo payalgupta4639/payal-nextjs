@@ -197,8 +197,8 @@ export default function Home() {
               <li>2. Add the following 'location' block inside your server block:</li>
                 <pre>
                   <code>
-                    &#123; location = /blog &#123;
-                      return 301 https://example.com;
+                    &#123; location = /blog &#123;<br/>
+                      return 301 https://example.com; &#125;<br/>
                     &#125;
                   </code>
                 </pre>
