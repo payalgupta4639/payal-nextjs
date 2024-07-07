@@ -212,34 +212,24 @@ export default function Home() {
           </li>
         </ol>
 
-        <ol start="8">
+
+
+        <ol start="9">
           <li>
-            A customer is creating a site and would like their project not to be indexed by search engines. Please write a reply to the customer. Feel free to add any information about your decision making process after the reply.
+            What do you think is one of the most common problems which customers ask Vercel for help with? How would you help customers to overcome common problems, short-term and long-term?
             <p>
-              Hi [Customer Name],
+              Some common issues which customers might be asking Vercel to help with are:
             </p>
+            <ul>
+              <li>Build failures</li>
+              <li>Dependencies issues</li>
+              <li>Signup issues</li>
+            </ul>
             <p>
-              Greetings from Vercel!
-            </p>
-            <p>
-              I understand you are creating a website and would like us to help you with ensuring that your project is not being indexed by the search engines. Please correct me if I misunderstood your concern.
-            </p>
-            <p>
-              You can achieve this by adding the below HTML meta tags to your project’s HTML pages which will help prevent it from indexing:
-            </p>
-            <pre>
-              <meta name="robots" content="noindex, nofollow"/>
-            </pre>
-            <p>
-              Please let me know if you face any issues. Would be happy to assist.
-            </p>
-            <p>
-              Thanks,
-              Payal
+              I would create macros or templates for such common problems to share with the customers and help them resolve the issues at the earliest as a short term solution. For long-term, I would suggest creating detailed documentation or short videos on how to resolve these common problems in order to reduce the ticket volume and assist our customers best.
             </p>
           </li>
         </ol>
-
 
         <ol start="10">
           <li>
