@@ -24,7 +24,7 @@ export default function Home() {
                 support tickets. I like creating content such as writing
                 technical documentation or creating videos to share knowledge
                 and help the users explain how a particular service or feature
-                works.{" "}
+                works.
               </p>
             </li>
             <li>
@@ -43,7 +43,7 @@ export default function Home() {
                 feedback from customers This is a rewarding task. Working
                 directly with the product team to build new features based on
                 user feedback allows you to have an influence on product
-                development and ensure that customer needs are met.{" "}
+                development and ensure that customer needs are met.
               </p>
             </li>
             <li>
@@ -258,9 +258,9 @@ export default function Home() {
           <ol start="6">
             <li>
               The customer from question 5 replies to your response with the
-              below: “I’m so frustrated. I’ve been trying to make this work for
+              below: "I’m so frustrated. I’ve been trying to make this work for
               hours and I just can’t figure it out. It must be a platform issue
-              so just fix it for me instead of asking me questions.” Please
+              so just fix it for me instead of asking me questions." Please
               write a follow-up reply to the customer.
               <pre className="">
                 <code className="">
@@ -356,7 +356,7 @@ export default function Home() {
           </p>
           <p>
             You can achieve this by adding the below HTML meta tags to your
-            project’s HTML pages which will help prevent it from indexing
+            project's HTML pages which will help prevent it from indexing
             <meta name="robots" content="noindex, nofollow" />
           </p>
           <p>
